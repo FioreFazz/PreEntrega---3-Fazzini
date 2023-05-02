@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contenedor-principal{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 5px;
+}
+aside{
+  padding: 20px;
+  position: sticky;
+  height: 90vh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo{
+  font-weight: bolder;
+  font-size: larger;
+  color: chocolate;
+}
+.boton-menu{
+  background-color:antiquewhite;
+  color: chocolate;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: end
+}
+
+.numerito {
+  background-color:chocolate;
+  color: white;
+  padding: 0 15px 0 15px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.boton-carrito .numerito {
+  background-color:chocolate;
+  color: white;
+}
+
+footer{
+  color: chocolate;
+  font-size: small;
+}
+main{
+  background-color: antiquewhite;
+  border-radius: 5px;
+  padding: 2em;
+  width: 100vh;
+}
+.titulo-principal{
+  color: chocolate;
+  margin-bottom: 20px;
+  font-size: larger;
+}
+.contenedor-habitaciones{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
+}
+.habitacion-imagen{
+  max-width: 100%;
+  border-radius: 5px;
+}
+.habitacion-detalles{
+  background-color: chocolate;
+  color: antiquewhite;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  position: relative;
+}
+.habitacion-titulo{
+  font-size: 20px;
+}
+.habitacion-agregar{
+  border: 0;
+  background-color: bisque;
+  color: chocolate;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Carrito */
+
+.contenedor-carrito{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.carrito-vacio, .carrito-comprado{
+  color: chocolate;
+  display: none;
+}
+
+.carrito-habitaciones{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.carrito-hab{
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+  color: chocolate;
+  padding: 10px;
+  margin: 15px;
+
+}
+.carrito-hab-imagen{
+  width: 150px;
+  height: auto;
+
+}
+.carrito-hab-eliminar{
+  border: 0;
+  background-color: bisque;
+  color: chocolate;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  
+
+}
+.carrito-acciones{
+  display: flex;
+  justify-content: space-between;
+}
+.carrito-derecha, .carrito-izquierda{
+  display: flex;
+
+
+}
+
+.carrito-vaciar, .carrito-comprar{
+  border: 0;
+  background-color: white;
+  color: chocolate;
+  padding: 20px;
+  border: 2px solid chocolate;
+
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.carrito-total{
+  display: flex;
+  border: 0;
+  background-color: white;
+  color: chocolate;
+  padding: 20px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+}
+.carrito-comprado{
+  color: chocolate;
+  text-transform: uppercase;
+  margin-top: 40px;
+  text-align: center;
+
+}
+
+
